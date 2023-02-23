@@ -1,0 +1,122 @@
+<html>
+<head> 
+<style>
+.t{
+  font-family: "Sofia", sans-serif;
+  font-size: 45px;
+ text-align: center;
+}
+
+body{  
+	background-image: url(https://elitedesignz.org/wp-content/uploads/2017/08/recent-projects.jpg);
+	font-family: "Sofia";
+}
+form{
+  font-size: 30px;
+   color: #3OO43F;
+   font-family: "MV Boli";
+}
+input[type=text],[type=email],[type=password]{
+	height:40px;
+	size: 50px;
+	 border:#A4E2F9;
+	 background-color: #A4E2F9;
+}
+input:focus{
+ box-shadow: 0 0 5px #A4E2F9;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 3px solid #A4E2F9;
+}
+<!--.d1{
+	border:7px solid #7B5995;
+	background-color: #77BDDF;
+	width: 500px;
+	margin: auto;
+	 position:relative;
+  top:20px;
+  height:600px;
+  width:800px;
+  margin-left:auto;
+  margin-right:auto; 
+  border:#fff 15px solid;
+}-->
+.d2{
+  position:relative;
+  top:15%;    
+  height:70%;
+  width:450px;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:5px;
+  background-color: #4F8EB5;
+   right: 0px;
+   left:400px;
+  -webkit-box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);        
+  box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);
+  }
+
+button {
+  -webkit-tap-highlight-color: transparent;
+  border-radius: 100px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  color:#3OO45F;
+  font-family: "MV Boli";
+  background-color:#A4E2F9;
+  cursor: pointer;
+  font-size: 1.2em;
+  margin-top: 20px;
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+}
+
+button:hover{
+  background-color:#77BDDF;
+}
+
+#div2{
+	font-size:20px;
+	position:absolute;
+    bottom:0px;
+    right:25%;
+    left:80%;
+	  margin-left:-200px;
+}
+#a1{
+	font-size:30px;
+	text-align:center;
+	display:block; 
+	text-decoration:none;
+	color:#3OO45F;
+	
+}
+</style>
+</head>
+<body>
+<font color="#3OO45F">
+<!--<div class="d1">-->
+<div class="d2">
+<a id="a1" href="createaccount.html">Sign Up </a> 
+
+<form action="create.php" method="post" align="center">
+Name : <input type="text" id="name" name="name" placeholder="Your Name"> <br/>
+Last Name:<input type="text" id="lastname" name="lastname" placeholder="Your Last Name"> <br/>
+Email:<input type="email" id="email" name="email" placeholder="Your Email"> <br/>
+Password : <input type="password" id="password" name="password" placeholder="Your Password"> <br/>
+<br/> 
+<button class="button">
+  <div class="pattern">
+    <div class="target inner bg2"></div>
+  </div>
+  <div class="text">Create Account</div>
+</button>
+</form>
+</div>
+<p id="div2"> 
+If u already have an account, Click here to 
+<a href="login.html" align="left"> Login </a> 
+</p>
+</font>
+</body>
+</html>
